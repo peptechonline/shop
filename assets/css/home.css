@@ -1,0 +1,85 @@
+
+/* Right-side Navigation Panel Styles */
+.nav {
+    border-right: 1px solid #b0c7e1; /* Border color adjusted to blue theme */
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #007bff; /* Primary blue color */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Darker blue for hover effect */
+    text-decoration: none;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #0056b3; /* Darker blue for active link */
+}
+
+/* Content Section Styles */
+.content-section {
+    transition: opacity 0.3s ease;
+}
+
+.main-section {
+    min-height: 90vh;
+}
+
+/* add device */
+
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.custom-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #122d4f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #0a1c33;
+}
